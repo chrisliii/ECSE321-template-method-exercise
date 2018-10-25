@@ -8,5 +8,8 @@ public class TemplateMethodMain {
 		
 		compiler = new BlackBerryCompiler();
 		compiler.crossCompile();
+		
+		compiler = new IPhoneCompiler();
+		compiler.crossCompile();
 	}
 }
